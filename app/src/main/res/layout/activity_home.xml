@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="25dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/a5c" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="25dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        app:srcCompat="@drawable/a11c" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome!"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="KAVINDU SHAVINKA"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="379dp"
+        android:layout_height="700dp"
+        android:background="#3D2323"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen1"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/Americano"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/a12c" />
+
+            <TextView
+                android:id="@+id/clothingName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Americano"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen2"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:id="@+id/clothingImage"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/download" />
+
+            <TextView
+                android:id="@+id/cappuccino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Cappuccino"
+                android:textSize="15sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen3"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="-270dp"
+            android:layout_marginTop="190dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/Latte"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/a14c" />
+
+            <TextView
+                android:id="@+id/LatteCaffe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Latte"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen4"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="190dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/flatwhite"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/a13c" />
+
+            <TextView
+                android:id="@+id/flatWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Flat White"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen5"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="-270dp"
+            android:layout_marginTop="350dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/Raf"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/a15c" />
+
+            <TextView
+                android:id="@+id/raf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="English Break Fast Tea"
+                android:textSize="12sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen6"
+            android:layout_width="114dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="350dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+
+            <ImageView
+                android:id="@+id/espResso"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/a16c" />
+
+            <TextView
+                android:id="@+id/eSpresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25sp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Espresso"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/homeScreen7"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-290dp"
+            android:layout_marginTop="550dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp">
+
+            <ImageView
+                android:id="@+id/store"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/a20c" />
+
+            <ImageView
+                android:id="@+id/gift"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="120sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/a21c" />
+
+            <ImageView
+                android:id="@+id/order"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="220sp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/a22c" />
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
